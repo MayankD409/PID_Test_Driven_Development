@@ -12,10 +12,8 @@ TEST(PIDControllerTest, ComputeTest) {
     // Call the compute method to calculate new velocity
     double newVelocity = pidController.compute(setpoint, actualVelocity);
 
-    // Assert that the new velocity is within a certain tolerance of the expected value
-    // Replace the expectedValue with the actual expected value based on your PID control logic
-    double expectedValue = 0.0;  // Replace with the actual expected value
-    double tolerance = 0.001;    // Tolerance for floating-point comparison
+    double expectedValue = 30.5;
+    double tolerance = 0.01;    // Tolerance for floating-point comparison
 
     EXPECT_NEAR(newVelocity, expectedValue, tolerance);
 }
