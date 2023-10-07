@@ -6,8 +6,8 @@
 
 | Team 1 |
 |---|
-| `Mayank Deshpande` (Driver)|
-| `Fabrizio Coronado` (Navigator)|
+| `Mayank Deshpande - 120387333` (Driver)|
+| `Fabrizio Coronado - 113100659` (Navigator)|
 
 ## Standard install via command-line
 ```bash
@@ -47,5 +47,7 @@ This generates a index.html page in the build/test_coverage sub-directory that c
 
 ## UML DIAGRAM
 
+![PIDController Class diagram](https://github.com/MayankD409/PID_Test_Driven_Development/blob/main/images/UML_Class_diagram.jpeg)
 ## ACTIVITY DIAGRAM
 
+![Compute method activity diagram](https://github.com/MayankD409/PID_Test_Driven_Development/blob/main/images/Activity_diagram.jpeg)
