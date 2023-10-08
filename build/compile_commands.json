@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/build/libs/pid",
+  "command": "/usr/bin/c++   -I/home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/libs/pid/.    -std=gnu++14 -o CMakeFiles/myLib1.dir/src.cpp.o -c /home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/libs/pid/src.cpp",
+  "file": "/home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/libs/pid/src.cpp"
+},
+{
+  "directory": "/home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/build/app",
+  "command": "/usr/bin/c++   -I/home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/include -I/home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/libs/pid/.    -std=gnu++14 -o CMakeFiles/shell-app.dir/main.cpp.o -c /home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/app/main.cpp",
+  "file": "/home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/app/main.cpp"
+},
+{
+  "directory": "/home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/build/test",
+  "command": "/usr/bin/c++   -I/home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/include -I/home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/libs -I/home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/libs/pid/. -isystem /home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/build/_deps/googletest-src/googletest/include -isystem /home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/build/_deps/googletest-src/googletest    -std=gnu++14 -o CMakeFiles/cpp-test.dir/main.cpp.o -c /home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/test/main.cpp",
+  "file": "/home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/test/main.cpp"
+},
+{
+  "directory": "/home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/build/test",
+  "command": "/usr/bin/c++   -I/home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/include -I/home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/libs -I/home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/libs/pid/. -isystem /home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/build/_deps/googletest-src/googletest/include -isystem /home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/build/_deps/googletest-src/googletest    -std=gnu++14 -o CMakeFiles/cpp-test.dir/test.cpp.o -c /home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/test/test.cpp",
+  "file": "/home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/test/test.cpp"
+}
+]
