@@ -1,5 +1,0 @@
-add_test( PIDControllerTest.ComputeTest /home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/build/test/cpp-test [==[--gtest_filter=PIDControllerTest.ComputeTest]==] --gtest_also_run_disabled_tests)
-set_tests_properties( PIDControllerTest.ComputeTest PROPERTIES WORKING_DIRECTORY /home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/build/test)
-add_test( PIDControllerTest.SetAndGetGainsTest /home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/build/test/cpp-test [==[--gtest_filter=PIDControllerTest.SetAndGetGainsTest]==] --gtest_also_run_disabled_tests)
-set_tests_properties( PIDControllerTest.SetAndGetGainsTest PROPERTIES WORKING_DIRECTORY /home/tarun/Masters/ENPM808X/PID_Test_Driven_Development/build/test)
-set( cpp-test_TESTS PIDControllerTest.ComputeTest PIDControllerTest.SetAndGetGainsTest)
