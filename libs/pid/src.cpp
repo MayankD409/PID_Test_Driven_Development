@@ -45,8 +45,24 @@ void PIDController::setKd(double kd) {
  * @return PID control output
  */
 double PIDController::compute(double setpoint, double actualVelocity) {
-    return 0.0;  // Placeholder value, replace with actual logic
+    // Calculate the error
+    double error = setpoint - actualVelocity;
+
+    // Calculate the integral of the errors
+    integral += error;
+
+    // Calculate the derivative of the error
+    double derivative = error - previousError;
+
+    // Compute the PID control output
+    double output = Kp * error + Ki * integral + Kd * derivative;
+
+    // Update the previous error
+    previousError = error;
+
+    return output;
 }
+
 
 /**
  * @brief Getter method to retrieve the proportional gain (Kp).
